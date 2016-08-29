@@ -1,0 +1,5 @@
+c:\users\john.solomon\documents\visual studio 2013\Projects\ConsoleApplication1\bin\Release\ConsoleApplication1.exe.config
+c:\users\john.solomon\documents\visual studio 2013\Projects\ConsoleApplication1\bin\Release\ConsoleApplication1.exe
+c:\users\john.solomon\documents\visual studio 2013\Projects\ConsoleApplication1\bin\Release\ConsoleApplication1.pdb
+c:\users\john.solomon\documents\visual studio 2013\Projects\ConsoleApplication1\obj\Release\ConsoleApplication1.exe
+c:\users\john.solomon\documents\visual studio 2013\Projects\ConsoleApplication1\obj\Release\ConsoleApplication1.pdb
