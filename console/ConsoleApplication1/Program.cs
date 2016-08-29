@@ -26,16 +26,16 @@ namespace ConsoleApplication1
             Console.WriteLine(IsPalindrome(whiteSpaceRemovedString) == shouldBePalindrome ? "pass" : "FAIL");
         }
 
-        public static bool IsPalindrome(string s)
+        public static bool IsPalindrome(string sentence)
         {
             var index = 0;
-            var lengthOfString = s.Length - 1;
+            var lengthOfString = sentence.Length - 1;
 
             while (index < lengthOfString)
             {
-                var i = Convert.ToString(s[index]).ToLower();
-                var l = Convert.ToString(s[lengthOfString]).ToLower(); 
-                if ( i != l )
+                var sentenceStart = Convert.ToString(sentence[index]).ToLower();
+                var sentenceEnd = Convert.ToString(sentence[lengthOfString]).ToLower();
+                if (sentenceStart != sentenceEnd)
                 {
                     return false;
                 }
