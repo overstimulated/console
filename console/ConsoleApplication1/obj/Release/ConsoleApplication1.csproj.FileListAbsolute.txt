@@ -3,3 +3,9 @@ c:\users\john.solomon\documents\visual studio 2013\Projects\ConsoleApplication1\
 c:\users\john.solomon\documents\visual studio 2013\Projects\ConsoleApplication1\bin\Release\ConsoleApplication1.pdb
 c:\users\john.solomon\documents\visual studio 2013\Projects\ConsoleApplication1\obj\Release\ConsoleApplication1.exe
 c:\users\john.solomon\documents\visual studio 2013\Projects\ConsoleApplication1\obj\Release\ConsoleApplication1.pdb
+C:\tests\console\ConsoleApplication1\bin\Release\ConsoleApplication1.exe.config
+C:\tests\console\ConsoleApplication1\obj\Release\ConsoleApplication1.exe
+C:\tests\console\ConsoleApplication1\obj\Release\ConsoleApplication1.pdb
+C:\tests\console\ConsoleApplication1\bin\Release\ConsoleApplication1.exe
+C:\tests\console\ConsoleApplication1\obj\Release\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\tests\console\ConsoleApplication1\bin\Release\ConsoleApplication1.pdb

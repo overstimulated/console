@@ -10,18 +10,20 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Check("abcba", true);
-            Check("abcde", false);
-            Check("Mr owl ate my metal worm", true);
+            //Check("abcba", true);
+            //Check("abcde", false);
+            //Check("Mr owl ate my metal worm", true);
             Check("Never Odd Or Even", true);
-            Check("Never Even Or Odd", false);
+            //Check("Never Even Or Odd", false);
 
             Console.ReadKey(); //to exit
         }
 
         public static void Check(string s, bool shouldBePalindrome)
         {
-            Console.WriteLine(IsPalindrome(s) == shouldBePalindrome ? "pass" : "FAIL");
+            //remove string spaces
+            var whiteSpaceRemovedString = s.Replace(" ", "");
+            Console.WriteLine(IsPalindrome(whiteSpaceRemovedString) == shouldBePalindrome ? "pass" : "FAIL");
         }
 
         public static bool IsPalindrome(string s)
@@ -29,9 +31,11 @@ namespace ConsoleApplication1
             var index = 0;
             var lengthOfString = s.Length - 1;
 
-            while (index < lengthOfString) 
+            while (index < lengthOfString)
             {
-                if (s[index] != s[lengthOfString])
+                var i = Convert.ToString(s[index]).ToLower();
+                var l = Convert.ToString(s[lengthOfString]).ToLower(); 
+                if ( i != l )
                 {
                     return false;
                 }
