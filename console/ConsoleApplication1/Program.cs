@@ -10,11 +10,11 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            //Check("abcba", true);
-            //Check("abcde", false);
-            //Check("Mr owl ate my metal worm", true);
+            Check("abcba", true);
+            Check("abcde", false);
+            Check("Mr owl ate my metal worm", true);
             Check("Never Odd Or Even", true);
-            //Check("Never Even Or Odd", false);
+            Check("Never Even Or Odd", false);
 
             Console.ReadKey(); //to exit
         }
