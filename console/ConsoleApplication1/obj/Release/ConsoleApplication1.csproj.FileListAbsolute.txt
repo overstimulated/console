@@ -12,3 +12,6 @@ C:\tests\console\ConsoleApplication1\bin\Release\ConsoleApplication1.pdb
 C:\mygithubprojects\console\console\ConsoleApplication1\bin\Release\ConsoleApplication1.exe.config
 C:\mygithubprojects\console\console\ConsoleApplication1\obj\Release\ConsoleApplication1.exe
 C:\mygithubprojects\console\console\ConsoleApplication1\obj\Release\ConsoleApplication1.pdb
+C:\mygithubprojects\console\console\ConsoleApplication1\bin\Release\ConsoleApplication1.exe
+C:\mygithubprojects\console\console\ConsoleApplication1\bin\Release\ConsoleApplication1.pdb
+C:\mygithubprojects\console\console\ConsoleApplication1\obj\Release\ConsoleApplication1.csprojResolveAssemblyReference.cache
