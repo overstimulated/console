@@ -31,10 +31,11 @@ namespace ConsoleApplication1
 
         public static int[] Sort(int[] arr)
         {
-            var smallest = 0;
-
+            int smallest = 0;
+            int totalSwaps = 0;
             for (int i = 0; i < arr.Length; i++)
             {
+                int numberOfSwaps = 0;
                 for (int sort = 0; sort < arr.Length - 1; sort++)
                 {
                     Console.WriteLine(arr.Length - 1);
@@ -43,11 +44,19 @@ namespace ConsoleApplication1
                         smallest = arr[sort + 1];
                         arr[sort + 1] = arr[sort];
                         arr[sort] = smallest;
-
+                        totalSwaps++;
+                        numberOfSwaps++;
                     }
 
                 }
+                if (numberOfSwaps == 0)
+                {
+                    break;
+                }
             }
+            Console.WriteLine("Array is sorted in "+totalSwaps+" swaps.");
+            Console.WriteLine("First Element: "+arr[0]);
+            Console.WriteLine("Last Element: " + arr[arr.Length - 1]);
 
             return arr;
         }
